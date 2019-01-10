@@ -1,0 +1,148 @@
+body {
+  padding: 20px 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: linear-gradient(pink,lightblue) no-repeat;
+  background-attachment:fixed;
+  background-size:100%;
+  height: auto;
+}
+html{
+  height: 100%;
+}
+a {
+  color: #00B7FF;
+}
+.container{
+  width: 808px;
+  margin: 0 auto;
+}
+.msg{
+  width: 600px;
+  float: left;
+}
+.msg__bd{
+  border-radius: 5px;
+  /* background-color: rgb(255, 223, 228); */
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #999;
+}
+.msg-title{
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 40px;
+  color: #666;
+  border-bottom: 1px solid #999;
+}
+.msg-title span{
+  float: right;
+  margin-right: 20px;
+}
+.msg-panel{
+  height: 380px;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}
+.a-msg{
+  padding: 20px 20px 0;
+  overflow: hidden;
+}
+.a-msg img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.a-msg-content h5 {
+  font-size: 14px;
+}
+.a-msg-content{
+  margin-left: 50px;
+  max-width: 400px;
+}
+.a-msg-content > span{
+  display: inline-block;
+  line-height: 20px;
+  padding: 10px 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  word-break: break-word;
+}
+.a-msg--my img{
+  float: right;
+}
+.a-msg--my .a-msg-content{
+  float: right;
+  margin: 0;
+  margin-right: 20px;
+}
+.a-msg--sys{
+  text-align: center;
+  margin-top: 20px; 
+}
+.a-msg--sys span{
+  display: inline-block;
+  line-height: 25px;
+  padding: 0 20px;
+  background-color: lightgrey;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.msg-users{
+  float: right;
+  width: 200px;
+  min-height: 300px;
+  max-height: 580px;
+  overflow-y: auto;
+  border-radius: 5px;
+  /* background-color: rgb(255, 223, 228); */
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #999;
+  padding-bottom: 10px;
+}
+.msg-users__item{
+  line-height: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.msg-users__item img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.msg__ft{
+  margin-top: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 5px #999;
+}
+.msg-input__bd {
+  position: relative;
+  width: 600px;
+}
+.msg-input__hd{
+  height: 30px;
+  border-bottom: 1px solid #999;
+}
+.msg-input {
+  height: 60px;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 5px 10px;
+  overflow-y: auto;
+  outline: none;
+}
+.msg-btn {
+  float: right;
+  margin-right: 30px;
+  width: 70px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #0188fb;
+  cursor: pointer;
+}

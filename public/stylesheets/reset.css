@@ -1,0 +1,11 @@
+ /*基本重置样式*/
+ body{margin:0;font:12px/1 "微软雅黑";}
+ h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;font-size:100%;}
+ p,dl,dd{margin:0;}
+ ul,ol{margin:0;padding:0;list-style:none;}
+ a{text-decoration:none;color:#333;}
+ strong,b{font-weight:normal;}
+ em,i{font-style:normal;}
+ img{border:0;vertical-align:bottom;}
+ button{border:none;outline:none;padding:0;}
+ .clearfix:after {content:"";display:block;clear: both;}

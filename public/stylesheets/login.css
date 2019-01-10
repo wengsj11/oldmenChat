@@ -1,0 +1,63 @@
+html{
+  position: relative;
+  height: 100%;
+}
+body{
+  background: linear-gradient(pink,lightblue) no-repeat;
+}
+.msg-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  left: 50%;
+  margin-left: -200px;
+  width: 400px;
+  height: 400px;
+  padding:0 10px; 
+  box-shadow: 0 0 5px #666666;
+  font-size: 23px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.input-block{
+  margin: 20px auto;
+  width: 300px;
+}
+.input-block > input{
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  background-image: url('/images/input-bg.png');
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 20px auto;
+  padding: 0 0 1em;
+  font-size: 21px;
+  animation: waving 5s infinite linear;
+}
+@keyframes waving {
+  from{background-position: 0 bottom;}
+  to{background-position: right bottom;}
+}
+.input-block input:focus{
+  animation-play-state:paused;
+  -webkit-animation-play-state:paused; /* Safari 和 Chrome */
+}
+.input-block button {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  background-color: #00B7FF;
+  color: #fff;
+  line-height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
